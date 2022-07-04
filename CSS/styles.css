@@ -44,17 +44,36 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  outline: 2px solid brown;
 }
-.link.current {
-  color: var(--accent-color);
+.logo {
+  position: absolute;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+  margin-right: 1240px;
+  color: var(--title-text-color);
+}
+.navi {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.link .current {
+  margin: 32, 1098, 32, 432;
 }
 .link {
-  color: var(--title-text-color);
+  margin: 32, 972, 32, 552;
 }
 .hat {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  outline: 2px solid green;
+  width: 1600px;
+  height: 80px;
 }
 .link :hover,
 .link :focus {
@@ -78,6 +97,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  outline: 2px solid red;
 }
 .button.primary {
   position: absolute;
@@ -100,6 +120,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid blue;
 }
 /* section text */
 .text-subtitle {
@@ -109,17 +130,24 @@
   line-height: 1.14;
   text-transform: uppercase;
 }
+.text-information {
+  outline: 2px solid blue;
+}
 .text-slogan {
   font-size: 14px;
   line-height: 1.71;
 }
 /* section image */
+.image-pic {
+  outline: 2px solid red;
+}
 .items-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  outline: 2px solid teal;
 }
 /* section team */
 .items-name {
@@ -127,6 +155,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+}
+.items-icon {
+  outline: 2px solid tomato;
 }
 .content {
   font-weight: 400;
@@ -136,6 +167,7 @@
 /* footer */
 .basement {
   background: var(--background-color-footer-hero);
+  outline: 2px solid green;
 }
 .map {
   color: var(--white-color);
@@ -168,6 +200,7 @@
   color: var(--white-color);
   background-color: var(--accent-color);
   font-family: inherit;
+  outline: 2px solid black;
 }
 .button.primary :hover,
 .button.primary :focus {
