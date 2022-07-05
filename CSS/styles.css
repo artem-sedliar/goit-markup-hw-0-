@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -39,36 +47,29 @@
   color: var(--white-color);
 }
 /* header nav */
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   outline: 2px solid brown;
-}
-.logo {
-  position: absolute;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 215px;
-  margin-right: 1240px;
   color: var(--title-text-color);
 }
-.navi {
-  position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+.link-logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
-
 .hat {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 2px solid green;
-  width: 1600px;
-  height: 80px;
 }
 .link :hover,
 .link :focus {
@@ -81,6 +82,9 @@
 .hat-link :hover,
 .hat-link :focus {
   color: var(--accent-color);
+}
+.list {
+  margin: 0;
 }
 /* hero */
 .hero {
@@ -115,6 +119,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 280px;
   outline: 2px solid blue;
 }
 /* section text */
@@ -123,6 +129,8 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-top: 94px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 .text-information {
@@ -131,6 +139,7 @@
 .text-slogan {
   font-size: 14px;
   line-height: 1.71;
+  margin: 0;
 }
 /* section image */
 .image-pic {
@@ -142,6 +151,8 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
   outline: 2px solid teal;
 }
 /* section team */
@@ -150,20 +161,43 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .items-icon {
   outline: 2px solid tomato;
+  margin-top: 186px;
+  margin-bottom: 94px;
 }
 .content {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  margin: 0;
 }
 /* footer */
+.google-map {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.mail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.telephone {
+  margin-top: 9px;
+  margin-bottom: 60px;
+}
+
 .basement {
   background: var(--background-color-footer-hero);
   outline: 2px solid green;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
 }
+
 .map {
   color: var(--white-color);
   font-size: 14px;
@@ -177,6 +211,10 @@
 .contact-cellar :hover,
 .contact-cellar :focus {
   color: var(--accent-color);
+}
+.contact {
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 /* main container */
 .icon-subtitle {
