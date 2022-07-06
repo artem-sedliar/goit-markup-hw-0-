@@ -18,7 +18,7 @@
 <body class="page">
     <!--Шапка с основной навигацией-->
     <header>
-        <div class="container-nav">
+        <div class="container nav">
             <nav>
                 <div class="lotip">
                     <a href="./index.html" class="logo"><span class="web">Web</span><span
@@ -41,120 +41,144 @@
     <main>
         <!-- Секция фильтра -->
         <section>
+
             <h1>Портфолио</h1>
-            <ul class="list">
-                <li class="button"> <button type="button" class="button">Все</button></li>
-                <li class="button"> <button type="button" class="button">Веб-сайты</button></li>
-                <li class="button"> <button type="button" class="button">Приложения</button></li>
-                <li class="button"> <button type="button" class="button">Дизайн</button></li>
-                <li class="button"> <button type="button" class="button">Маркетинг</button></li>
-            </ul>
+            <div class="container btn">
+                <ul class="list">
+                    <li class="button"> <button type="button" class="button">Все</button></li>
+                    <li class="button"> <button type="button" class="button">Веб-сайты</button></li>
+                    <li class="button"> <button type="button" class="button">Приложения</button></li>
+                    <li class="button"> <button type="button" class="button">Дизайн</button></li>
+                    <li class="button"> <button type="button" class="button">Маркетинг</button></li>
+                </ul>
+            </div>
             <!--секция карточек-->
-            <ul class="list">
-                <li>
-                    <a href="" class="list-icon">
-                        <img src="./images/technocrack.jpg" alt="Открытый MacBook" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Технокряк</h2>
-                            <p class="list-text">Веб-сайт</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="" class="list-icon">
-                        <img src="./images/poster.jpg" alt="Два человека играют в баскетбол" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Постер New Orlean vs Golden Star</h2>
-                            <p class="list-text">Дизайн</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="" class="list-icon">
-                        <img src="./images/restaurant.jpg" alt="Логотип ресторана с рыбой" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Ресторан Seafood</h2>
-                            <p class="list-text">Приложение</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li><a href="" class="list-icon">
-                        <img src="./images/prime.jpg" alt="чёрные наушники" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Проект Prime</h2>
-                            <p class="list-text">Маркетинг</p>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="" class="list-icon">
-                        <img src="./images/boxes.jpg" alt="белая и коричневые коробки" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Проект Boxes</h2>
-                            <p class="list-text">Приложение</p>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="" class="list-icon">
-                        <img src="./images/Inspiration.jpg" alt="iMac" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Inspiration has no Borders</h2>
-                            <p class="list-text">Веб-сайт</p>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="" class="list-icon">
-                        <img src="./images/edition.jpg" alt="открытый журнал" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Издание Limited Edition</h2>
-                            <p class="list-text">Дизайн</p>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="" class="list-icon">
-                        <img src="./images/lab.jpg" alt="бирка" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Проект LAB</h2>
-                            <p class="list-text">Маркетинг</p>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="" class="list-icon">
-                        <img src="./images/prime.jpg" alt="открыты MacBook с Веб-сайт Growing Business" width="370" />
-                        <div class="name">
-                            <h2 class="icon-subtitle">Growing Business</h2>
-                            <p class="list-text">Приложение</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+            <div class="container icons">
+                <ul class="list">
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="list-icon">
+                                <img src="./images/technocrack.jpg" alt="Открытый MacBook" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Технокряк</h2>
+                                    <p class="list-text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="list-icon">
+                                <img src="./images/poster.jpg" alt="Два человека играют в баскетбол" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Постер New Orlean vs Golden Star</h2>
+                                    <p class="list-text">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li>
+                            <a href="" class="list-icon">
+                                <img src="./images/restaurant.jpg" alt="Логотип ресторана с рыбой" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Ресторан Seafood</h2>
+                                    <p class="list-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/prime.jpg" alt="чёрные наушники" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Проект Prime</h2>
+                                    <p class="list-text">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/boxes.jpg" alt="белая и коричневые коробки" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Проект Boxes</h2>
+                                    <p class="list-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/Inspiration.jpg" alt="iMac" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Inspiration has no Borders</h2>
+                                    <p class="list-text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/edition.jpg" alt="открытый журнал" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Издание Limited Edition</h2>
+                                    <p class="list-text">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/lab.jpg" alt="бирка" width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Проект LAB</h2>
+                                    <p class="list-text">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="flex-element">
+                        <li><a href="" class="list-icon">
+                                <img src="./images/prime.jpg" alt="открыты MacBook с Веб-сайт Growing Business"
+                                    width="370" />
+                                <div class="name">
+                                    <h2 class="icon-subtitle">Growing Business</h2>
+                                    <p class="list-text">Приложение</p>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Подвал-->
     <footer class="basement">
-        <div class="link-logo">
-            <a href="./index.html" class="logo"><span class="web">Web</span><span
-                    class="studio-footer">Studio</span></a>
+        <div class="container bottom">
+            <div class="link-logo">
+                <a href="./index.html" class="logo"><span class="web">Web</span><span
+                        class="studio-footer">Studio</span></a>
+            </div>
+            <address class="contact">
+                <ul class="list-footer">
+                    <div class="google-map">
+                        <li><a href=https://goo.gl/maps/S9nAgRy4S3eJK2nv7 target="_blank" rel="noopener noreferrer"
+                                class="map">
+                                г.Киев,пр-т Леси Украинки, 26</a></li>
+                    </div>
+                    <div class="mail">
+                        <li class="contact-cellar"><a href="mailto:info@example.com"
+                                class="contact-cellar">info@example.com</a></li>
+                    </div>
+                    <div class="telephone">
+                        <li class="contact-cellar"><a href="tel:+380991111111" class="contact-cellar">+38 099 111 11
+                                11</a>
+                        </li>
+                    </div>
+                </ul>
+            </address>
         </div>
-        <address class="contact">
-            <ul class="list-footer">
-                <div class="google-map">
-                    <li><a href=https://goo.gl/maps/S9nAgRy4S3eJK2nv7 target="_blank" rel="noopener noreferrer"
-                            class="map">
-                            г.Киев,пр-т Леси Украинки, 26</a></li>
-                </div>
-                <div class="mail">
-                    <li class="contact-cellar"><a href="mailto:info@example.com"
-                            class="contact-cellar">info@example.com</a></li>
-                </div>
-                <div class="telephone">
-                    <li class="contact-cellar"><a href="tel:+380991111111" class="contact-cellar">+38 099 111 11 11</a>
-                    </li>
-                </div>
-            </ul>
-        </address>
     </footer>
 </body>
 

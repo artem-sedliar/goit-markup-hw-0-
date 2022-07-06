@@ -17,17 +17,17 @@
 
 <body class="page">
     <!--Шапка с основной навигацией-->
+
     <header class="hat">
-        <div class="container-nav">
+        <div class="container top">
             <nav>
                 <a href="./index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
-                <div class="navi">
-                    <ul class="list">
-                        <li class="reference"><a href="./index.html" class="link current">Студия</a></li>
-                        <li class="reference"><a href="./portfolio.html" class="link"> Портфолио</a></li>
-                        <li class="reference"><a href="" class="link">Контакты</a></li>
-                    </ul>
-                </div>
+                <ul class="list">
+                    <li class="reference"><a href="./index.html" class="link current">Студия</a></li>
+                    <li class="reference"><a href="./portfolio.html" class="link"> Портфолио</a></li>
+                    <li class="reference"><a href="" class="link">Контакты</a></li>
+                </ul>
+
             </nav>
 
             <ul class="list">
@@ -36,49 +36,55 @@
             </ul>
         </div>
     </header>
+
     <!--шапка с главным предложением-->
     <main>
 
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button primary" type="button">Заказать услугу</button>
+            <div class="primary">
+                <button class="button primary" type="button">Заказать услугу</button>
+            </div>
         </section>
         <!--секция однотипного контента-->
         <section>
             <h2>Почему мы?</h2>
-            <ul class="list">
-                <li class="text-information">
-                    <h3 class="text-subtitle">Внимание к деталям</h3>
-                    <p class="text-slogan">
-                        Идейные соображения, а также начало повседневной работы по
-                        формированию позиции.
-                    </p>
-                </li>
-                <li class="text-information">
-                    <h3 class="text-subtitle">Пунктуальность</h3>
-                    <p class="text-slogan">
-                        Задача организации, в особенности же рамки и место обучения кадров
-                        влечет за собой.
-                    </p>
-                </li>
-                <li class="text-information">
-                    <h3 class="text-subtitle">Планирование</h3>
-                    <p class="text-slogan">
-                        Равным образом консультация с широким активом в значительной
-                        степени обуславливает.
-                    </p>
-                </li>
-                <li class="text-information">
-                    <h3 class="text-subtitle">Современные технологии</h3>
-                    <p class="text-slogan">
-                        Значимость этих проблем настолько очевидна, что реализация
-                        плановых заданий.
-                    </p>
-                </li>
+            <div class="container main">
+                <ul class="list">
+                    <li class="text-information">
+                        <h3 class="text-subtitle">Внимание к деталям</h3>
+                        <p class="text-slogan">
+                            Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.
+                        </p>
+                    </li>
+                    <li class="text-information">
+                        <h3 class="text-subtitle">Пунктуальность</h3>
+                        <p class="text-slogan">
+                            Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.
+                        </p>
+                    </li>
+                    <li class="text-information">
+                        <h3 class="text-subtitle">Планирование</h3>
+                        <p class="text-slogan">
+                            Равным образом консультация с широким активом в значительной
+                            степени обуславливает.
+                        </p>
+                    </li>
+                    <li class="text-information">
+                        <h3 class="text-subtitle">Современные технологии</h3>
+                        <p class="text-slogan">
+                            Значимость этих проблем настолько очевидна, что реализация
+                            плановых заданий.
+                        </p>
+                    </li>
+            </div>
             </ul>
         </section>
         <!--секция картинок-->
         <section>
+            <div class="container picture"></div>
             <h2 class="items-subtitle">Чем мы занимаемся</h2>
             <ul class="list">
                 <li class="image-pic"><img src="./images/img1.jpg" alt="ipad очки клавиатура" width="370" /></li>
@@ -88,6 +94,7 @@
         </section>
         <!--наша команда-->
         <section class="items">
+            <div class="container command"></div>
             <h2 class="items-subtitle">Наша команда</h2>
             <ul class="list">
                 <li class="items-icon">
@@ -118,27 +125,30 @@
     </main>
     <!--Подвал-->
     <footer class="basement">
-        <div class="link-logo">
-            <a href="" class="logo"><span class="web">Web</span><span class="studio-footer">Studio</span></a>
+        <div class="container bottom">
+            <div class="link-logo">
+                <a href="" class="logo"><span class="web">Web</span><span class="studio-footer">Studio</span></a>
+            </div>
+            <address class="contact">
+                <ul class="list-footer">
+                    <div class="google-map">
+                        <li class="contact-cellar"><a href=https://goo.gl/maps/S9nAgRy4S3eJK2nv7 target="_blank"
+                                rel="noopener noreferrer" class="map">
+                                г.Киев,пр-т Леси Украинки, 26</a></li>
+                    </div>
+                    <div class="mail">
+                        <li class="contact-cellar"><a href="mailto:info@example.com"
+                                class="contact-cellar">info@example.com</a>
+                        </li>
+                    </div>
+                    <div class="telephone">
+                        <li class="contact-cellar"><a href="tel:+380991111111" class="contact-cellar">+38 099 111 11
+                                11</a>
+                        </li>
+                    </div>
+                </ul>
+            </address>
         </div>
-        <address class="contact">
-            <ul class="list-footer">
-                <div class="google-map">
-                    <li class="contact-cellar"><a href=https://goo.gl/maps/S9nAgRy4S3eJK2nv7 target="_blank"
-                            rel="noopener noreferrer" class="map">
-                            г.Киев,пр-т Леси Украинки, 26</a></li>
-                </div>
-                <div class="mail">
-                    <li class="contact-cellar"><a href="mailto:info@example.com"
-                            class="contact-cellar">info@example.com</a>
-                    </li>
-                </div>
-                <div class="telephone">
-                    <li class="contact-cellar"><a href="tel:+380991111111" class="contact-cellar">+38 099 111 11 11</a>
-                    </li>
-                </div>
-            </ul>
-        </address>
     </footer>
 </body>
 
