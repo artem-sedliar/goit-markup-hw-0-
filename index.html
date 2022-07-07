@@ -18,11 +18,11 @@
 <body class="page">
     <!--Шапка с основной навигацией-->
 
-    <header class="hat">
-        <div class="container top">
-            <nav>
+    <header class="container">
+        <div class="container-nav">
+            <nav class="top">
                 <a href="./index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
-                <ul class="list">
+                <ul class="list-link">
                     <li class="reference"><a href="./index.html" class="link current">Студия</a></li>
                     <li class="reference"><a href="./portfolio.html" class="link"> Портфолио</a></li>
                     <li class="reference"><a href="" class="link">Контакты</a></li>
@@ -30,7 +30,7 @@
 
             </nav>
 
-            <ul class="list">
+            <ul class="list-hat">
                 <li class="contacts"><a href="mailto:info@devstudio.com" class="hat-link">info@devstudio.com</a></li>
                 <li class="contacts"><a href="tel:+380961111111" class="hat-link">+38 096 111 11 11</a></li>
             </ul>
@@ -39,22 +39,25 @@
 
     <!--шапка с главным предложением-->
     <main>
+        <div class="section">
+            <section class="hero">
 
-        <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <div class="primary">
-                <button class="button primary" type="button">Заказать услугу</button>
-            </div>
-        </section>
+                <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+                <div class="primary">
+                    <button class="button primary" type="button">Заказать услугу</button>
+                </div>
+            </section>
+        </div>
         <!--секция однотипного контента-->
-        <section>
-            <h2>Почему мы?</h2>
-            <div class="container main">
+        <section class="section">
+            <h2 class="hidden">Почему мы?</h2>
+            <div class="container">
                 <ul class="list">
                     <li class="text-information">
                         <h3 class="text-subtitle">Внимание к деталям</h3>
                         <p class="text-slogan">
-                            Идейные соображения, а также начало повседневной работы по
+                            Идейные соображения, а также
+                            начало повседневной работы по
                             формированию позиции.
                         </p>
                     </li>
@@ -83,49 +86,53 @@
             </ul>
         </section>
         <!--секция картинок-->
-        <section>
-            <div class="container picture"></div>
-            <h2 class="items-subtitle">Чем мы занимаемся</h2>
-            <ul class="list">
-                <li class="image-pic"><img src="./images/img1.jpg" alt="ipad очки клавиатура" width="370" /></li>
-                <li class="image-pic"><img src="./images/img2.jpg" alt="смартфон и макбук" width="370" /></li>
-                <li class="image-pic"><img src="./images/img3.jpg" alt="ipad мишь ручка в руке" width="370" /></li>
-            </ul>
+        <section class="section">
+            <div class="container">
+                <h2 class="subtitle">Чем мы занимаемся</h2>
+                <ul class="list">
+                    <li class="image-pic"><img src="./images/img1.jpg" alt="ipad очки клавиатура" width="370" /></li>
+                    <li class="image-pic"><img src="./images/img2.jpg" alt="смартфон и макбук" width="370" /></li>
+                    <li class="image-pic"><img src="./images/img3.jpg" alt="ipad мишь ручка в руке" width="370" /></li>
+                </ul>
+            </div>
         </section>
         <!--наша команда-->
-        <section class="items">
-            <div class="container command"></div>
-            <h2 class="items-subtitle">Наша команда</h2>
-            <ul class="list">
-                <li class="items-icon">
-                    <img src="./images/demyanenko.jpg" alt="борода очки рубашка" width="270" />
-                    <h3 class="items-name"> Игорь Демьяненко</h3>
-                    <p class="content">Product Designer</p>
-                </li>
+        <div class="section">
+            <section class="items">
+                <div class="container">
+                    <h2 class="items-subtitle">Наша команда</h2>
+                    <ul class="list">
+                        <li class="items-icon">
+                            <img src="./images/demyanenko.jpg" alt="борода очки рубашка" width="270" />
+                            <h3 class="items-name"> Игорь Демьяненко</h3>
+                            <p class="content">Product Designer</p>
+                        </li>
 
-                <li class="items-icon">
-                    <img src="./images/repina.jpg" alt="девушка блондинка" width="270" />
-                    <h3 class="items-name">Ольга Репина</h3>
-                    <p class="content">Frontend Developer</p>
-                </li>
+                        <li class="items-icon">
+                            <img src="./images/repina.jpg" alt="девушка блондинка" width="270" />
+                            <h3 class="items-name">Ольга Репина</h3>
+                            <p class="content">Frontend Developer</p>
+                        </li>
 
-                <li class="items-icon">
-                    <img src="./images/tarasov.jpg" alt="парень в голубой рубашке" width="270" />
-                    <h3 class="items-name">Николай Тарасов</h3>
-                    <p class="content">Marketing</p>
-                </li>
+                        <li class="items-icon">
+                            <img src="./images/tarasov.jpg" alt="парень в голубой рубашке" width="270" />
+                            <h3 class="items-name">Николай Тарасов</h3>
+                            <p class="content">Marketing</p>
+                        </li>
 
-                <li class="items-icon">
-                    <img src="./images/yermakov.jpg" alt="Парень в черной футболке" width="270" />
-                    <h3 class="items-name">Михаил Ермаков</h3>
-                    <p class="content">UI Designer</p>
-                </li>
-            </ul>
-        </section>
+                        <li class="items-icon">
+                            <img src="./images/yermakov.jpg" alt="Парень в черной футболке" width="270" />
+                            <h3 class="items-name">Михаил Ермаков</h3>
+                            <p class="content">UI Designer</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </main>
     <!--Подвал-->
     <footer class="basement">
-        <div class="container bottom">
+        <div class="container">
             <div class="link-logo">
                 <a href="" class="logo"><span class="web">Web</span><span class="studio-footer">Studio</span></a>
             </div>
