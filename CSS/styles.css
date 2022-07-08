@@ -60,7 +60,7 @@ html {
   font-style: normal;
   padding: 0px;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   margin-top: 0px;
 }
 .container.nav {
@@ -83,6 +83,7 @@ header {
 }
 .list-hat {
   display: flex;
+  align-items: center;
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -96,12 +97,6 @@ header {
 }
 
 .container {
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  padding-left: 15px;
-  padding-right: 15px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -127,7 +122,10 @@ header {
   color: var(--title-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
   display: block;
@@ -136,13 +134,20 @@ header {
   color: var(--title-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
   display: block;
 }
 .reference :focus,
 .reference :hover {
+  color: var(--accent-color);
+}
+.reference-link :focus,
+.reference-link :hover {
   color: var(--accent-color);
 }
 .hat-link :focus,
@@ -154,7 +159,10 @@ header {
   color: var(--accent-color);
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
   display: block;
@@ -174,11 +182,10 @@ header {
   list-style: none;
   font-style: normal;
   margin: 0px;
-  margin-left: 331px;
 }
 .hat-link-last {
   color: var(--primary-text-color);
-  margin-left: 50px;
+
   font-weight: 500;
   font-size: 14px;
   padding-top: 32px;
@@ -187,34 +194,43 @@ header {
   font-style: normal;
   text-decoration: none;
 }
-
+.reference {
+  margin-left: 331px;
+}
+.reference-link {
+  margin-right: 50px;
+}
+.reference-link:last-child {
+  margin-right: 0px;
+}
+.reference:last-child {
+  margin-left: 50px;
+}
 /* hero */
 .hero {
   background: var(--background-color-footer-hero);
   padding-top: 200px;
   padding-bottom: 280px;
-
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 .button.primary {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  margin: 0 auto;
+  display: block;
   cursor: pointer;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 31px;
+  padding-right: 31px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border: 0px;
 }
-.primary {
-  text-align: center;
-  display: inline-block;
-  padding-left: 700px;
-  padding-right: 700px;
-}
+
 .title {
   color: var(--white-color);
   width: 696px;
@@ -228,7 +244,7 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 
   margin-left: auto;
   margin-right: auto;
@@ -258,7 +274,7 @@ header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin-bottom: 10px;
+
   text-transform: uppercase;
   margin-top: 0px;
 }
@@ -277,7 +293,7 @@ header {
   font-size: 14px;
   line-height: 1.71;
   margin: 0;
-  padding-right: 15px;
+  letter-spacing: 0.03em;
 }
 /* section image */
 .image-pic {
@@ -352,9 +368,6 @@ header {
   text-align: center;
 }
 /* footer */
-.google-map {
-  margin-bottom: 9px;
-}
 
 .basement {
   background: var(--background-color-footer-hero);
@@ -368,10 +381,19 @@ header {
   line-height: 1.71;
   margin-bottom: 9px;
 }
+.map :hover,
+.map :focus {
+  color: var(--accent-color);
+}
 .contact-cellar {
   color: var(--footer-contact-color);
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 9px;
+  letter-spacing: 0.03em;
+}
+.contact-cellar:last-child {
+  margin-bottom: 0px;
 }
 .contact-cellar :hover,
 .contact-cellar :focus {
@@ -432,13 +454,15 @@ header {
   line-height: 1.62;
   cursor: pointer;
   font-family: inherit;
-  margin-right: 8px;
   border: none;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
   border-radius: 5px;
+}
+.button {
+  margin-right: 8px;
 }
 
 .button :hover,
